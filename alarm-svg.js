@@ -11,4 +11,4 @@ for(var i = 0; i < 360; i+=6) {
  var cy = CY - (COS * R);
  rs.push('<circle cx="'+cx+'" cy="'+cy+'" r="1" fill={props.color} stroke={props.color} strokeWidth={`${props.strokeWidth}`} />');
 }
-document.write(rs);
+console.log(rs);
