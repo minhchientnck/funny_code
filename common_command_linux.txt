@@ -1,0 +1,15 @@
+- curl -fLo <name> <url>
+- whoami
+- su – otheruser
+- chmod [target][condition][permission] [filename]
+   + target: u(owner), g(group), o(other), a(all)
+   + condition: + (add) - (remove)
+   + permission: r(read), w(write), x(execute)
+- chown <user> /opt/traefik 
+- chown <user>:sudo /opt/traefik (user and group)
+- ps -u
+
+- echo 'hello' > file.txt (override)
+- echo 'hello' >> file.txt (append)
+- 2> file.txt (write error log into file)
+- &> file.txt (write result and error log into file)
