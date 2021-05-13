@@ -18,4 +18,12 @@
 
 *******************************************************************************************************************************************************************************
 
-openssl req -config D:\OpenSSL\openssl-1.1\ssl\openssl.cnf -x509 -nodes -days 365 -newkey rsa:4096 -keyout D:\OpenSSL\keys\nginx-selfsigned.key -out D:\OpenSSL\keys\nginx-selfsigned.pem
+openssl req  \
+-x509 \
+-nodes \
+-days 365 \
+-newkey rsa:4096 \
+-config D:\OpenSSL\openssl-1.1\ssl\openssl.cnf \
+-keyout D:\OpenSSL\keys\nginx-selfsigned.key \
+-pubkey D:\OpenSSL\keys\nginx-selfsigned.pub \
+-out D:\OpenSSL\keys\nginx-selfsigned.pem
