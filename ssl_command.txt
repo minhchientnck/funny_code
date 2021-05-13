@@ -1,1 +1,21 @@
+************************* How to use OpenSSL *************************
+
+
+1. download binary file at https://wiki.openssl.org/index.php/Binaries
+						   https://kb.firedaemon.com/support/solutions/articles/4000121705
+   for both architecture x86, x64
+
+
+2. extract binary in your directory destination
+
+3. go to <your_installed_dir> -> select architecture
+   ex: x64
+   -> open terminal and run cmd 
+   > openssl
+
+
+
+
+*******************************************************************************************************************************************************************************
+
 openssl req -config D:\OpenSSL\openssl-1.1\ssl\openssl.cnf -x509 -nodes -days 365 -newkey rsa:4096 -keyout D:\OpenSSL\keys\nginx-selfsigned.key -out D:\OpenSSL\keys\nginx-selfsigned.pem
