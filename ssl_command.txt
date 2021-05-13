@@ -1,0 +1,1 @@
+openssl req -config D:\OpenSSL\openssl-1.1\ssl\openssl.cnf -x509 -nodes -days 365 -newkey rsa:4096 -keyout D:\OpenSSL\keys\nginx-selfsigned.key -out D:\OpenSSL\keys\nginx-selfsigned.pem
